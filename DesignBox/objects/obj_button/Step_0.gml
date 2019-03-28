@@ -1,5 +1,5 @@
 // Follow the follow object
-if (followObject != noone)
+if (instance_exists(followObject))
 {
 	if (!followOffsetSet)
 	{

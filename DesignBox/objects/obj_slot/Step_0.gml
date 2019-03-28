@@ -1,5 +1,5 @@
 // Follow the follow object
-if (followObject != noone)
+if (instance_exists(followObject))
 {
 	if (!followOffsetSet)
 	{
@@ -13,5 +13,5 @@ if (followObject != noone)
 }
 
 // Check if no behaviour is inserted
-if (!place_meeting(x, y, obj_behaviour) && obj_manager.selectedObject != noone)
+if (!place_meeting(x, y, obj_behaviour) && obj_manager.selectedObject != noone && instance_exists(followObject))
 	followObject.connectedObject.behaviour = noone;

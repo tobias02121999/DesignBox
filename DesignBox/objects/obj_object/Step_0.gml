@@ -6,6 +6,13 @@ if (keyboard_check_pressed(vk_escape))
 	obj_manager.selectedObject = noone;
 }
 
+if (keyboard_check_pressed(vk_delete) && selected)
+{
+	with (inspector) instance_destroy();
+	obj_manager.selectedObject = noone;	
+	instance_destroy();
+}
+
 // Run the objects behaviour
 if (obj_manager.playMode)
 {

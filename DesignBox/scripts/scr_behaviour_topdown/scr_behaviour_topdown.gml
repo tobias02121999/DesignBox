@@ -20,11 +20,13 @@ if (keyboard_check(vk_right))
 }
 
 if (keyboard_check(vk_up))
+{
 	for (var i = spd; i >= 1; i--)
 	{
 		if (place_free(x, y - i))
 			y -= i;
 	}
+}
 
 if (keyboard_check(vk_down))
 {

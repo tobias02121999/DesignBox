@@ -5,3 +5,6 @@ inspector = noone;
 followMouse = false;
 spawnX = x;
 spawnY = y;
+
+velocityY = 0;
+isGrounded = false;

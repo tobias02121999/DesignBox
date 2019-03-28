@@ -1,18 +1,18 @@
 {
-    "id": "640b803c-f07f-4977-bb83-f3cf6afbbffa",
+    "id": "82b794ff-c4a5-443b-bab4-3b3f61b16533",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_behaviour_player",
+    "name": "obj_behaviour_jumping",
     "eventList": [
         {
-            "id": "0b94ca8b-ba68-458f-b0cd-203447847408",
+            "id": "7e3b3ecd-8370-4a9a-bdc3-045891e5315f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "640b803c-f07f-4977-bb83-f3cf6afbbffa"
+            "m_owner": "82b794ff-c4a5-443b-bab4-3b3f61b16533"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c975a180-daf6-4be4-b8a8-1ab29d37b12e",
+    "spriteId": "0bd1d19c-9902-44f2-aa0a-2c4f5254c3c1",
     "visible": true
 }
